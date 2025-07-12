@@ -3,7 +3,12 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                echo "Hello World"
+                echo "Jagadeesh building the code.."
+            }
+        }
+         stage("Release"){
+            steps{
+                echo "someone unknowingly releases the code..."
             }
         }
     }
